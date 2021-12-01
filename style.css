@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background: linear-gradient(180deg, #E5EFFF 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
+    /* background: url('./images/w_bg.svg') right top no-repeat; */
+}
+
+.hero {
+    /* background: url('./images/w_bg.svg') right top no-repeat; */
+    margin-bottom: 5rem;
+}
+
+.wrapper {
+    font-family: 'Roboto', sans-serif;
+    /* background: linear-gradient(180deg, #E5EFFF 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%); */
+    background: url('./images/w_bg.svg') right top no-repeat;
+    /* margin: 0 5.5rem 0 5.5rem; */
+}
+
+/* HEADER SECTION - Building exactly the eCommerce website you want. */
+.header {
+    display: flex;
+    align-items: center;
+    padding-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+.nav {
+    margin-left: 5rem;
+}
+
+.nav-link {
+    display: inline-block;
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #272D4E;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.header-right {
+    margin-left: auto;
+}
+
+.get-start-btn {
+    border-radius: 5px;
+    background: #7854F7;
+    color: white;
+    padding: 13px;
+}
+
+.hero-inner {
+    display: flex;
+}
+
+.hero-inner-left {
+    padding-right: 5rem;
+    color: #94A2B3;
+    flex: .6;
+}
+
+.hero-inner-right {
+    flex: .4;
+}
+
+.main-title {
+    font-size: 8.5rem;
+    line-height: 8.5rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: #272D4E
+}
+
+.subtitle {
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+
+.hero-inner-footer {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #7854F7;
+    color: white;
+    height: 72px;
+    font-size: 1.8rem;
+    padding-left: 6.3rem;
+    padding-right: 6.3rem;
+    text-decoration: none;
+}
+
+.mr-20 {
+    margin-right: 2rem;
+}
+
+.ml-20 {
+    margin-left: 2rem;
+    color: #299EF3;
+    font-weight: bold;
+}
+
+.link {
+    font-size: 2.2rem;
+    color: #299EF3;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.fz-2-2 {
+    font-size: 2.2rem;
+}
+
+/* UPPER SECTION - Your eCommerce made simple */
+.block-title {
+    margin-bottom: 3rem;
+    font-size: 5.5rem;
+    line-height: 7rem;
+    text-align: center;
+}
+
+.simple-title {
+    margin-bottom: 1rem;
+    font-size: 3.6rem;
+    line-height: 7rem;
+    font-weight: bold;
+}
+
+.simple-text {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.simple-grid {
+    display: flex;
+    gap: 2rem;
+}
+
+.simple-grid-cell {
+    flex: 1;
+}
+
+.simple-grid-cell:nth-child(2) {
+    padding-top: 2rem;
+}
+
+.simple-grid-cell:nth-child(3) {
+    padding-top: 4rem;
+}
+
+/* MIDDLE SECTION - Develop Without Limits */
+.wrapper-middle {
+    font-family: 'Roboto', sans-serif;
+    background: url(./images/Group\ 25.png) center no-repeat; 
+}
+
+.middle-block {
+    padding-top: 5rem;
+    /* background-color: #7854F7; */
+    /* background: url(./images/Rectangle\ 234.png) top no-repeat; */
+}
+
+.middle-block-cell {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.middle-block-img-wrap {
+    flex: .5;
+}
+
+.middle-block-content {
+    flex: .4;
+    
+}
+
+.middle-title {
+    font-size: 3.6rem;
+    line-height: 4.6rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 1.3rem;
+}
+
+.middle-text {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    color:white;
+    margin-bottom: 4rem;
+}
+
+.middle-block-content-image-wrapper {
+    display: flex;
+}
+
+.middle-button {
+    border-radius: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #70C217;
+    color: white;
+    height: 72px;
+    font-size: 1.8rem;
+    /* padding-left: 6.3rem; */
+    /* padding-right: 6.3rem; */
+    text-decoration: none;
+    flex: .6;
+}
+
+.jc-flex-end {
+    justify-content: flex-end;
+}
+
+/* LOWER SECTION - Trusted by Agencies & Store Owners */
+.wrapper-lower {
+    font-family: 'Roboto', sans-serif;
+    background: url(./images/trusted-by-agencies-background.png) center no-repeat; 
+    padding-top: 24rem;
+}
+
+.wrapper-lower {
+    padding-top: 24rem;
+}
+
+.lower-block-title-p {
+    color: #272D4E;
+    font-size: 5.5rem;
+    line-height: 7rem;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10rem;
+}
+
+.lower-block-cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.lower-block-card {
+    margin: auto;
+    width: 73rem;
+    height: 39rem;
+    background-color: white;
+    box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+    border-radius: 20px;
+}
+
+.upper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle {
+    margin-top: -36rem;
+    z-index: -1;
+    width: 57%;
+}
+
+.lower {
+    margin-top: -36rem;
+    z-index: -2;
+    width: 51%;
+}
+
+.quotation-marks-img {
+    position: absolute;
+    padding: 0 0 15rem 0;
+}
+
+.card-text {
+    flex: 0 0 55rem;
+    text-align: center;
+    z-index: 1;
+    color: #94A2B3;
+    font-size: 2.7rem;
+    line-height: 4rem;
+}
+
+.arrows {
+    margin-left: 80rem;
+    margin-top: 5rem;
+}
+
+.fa-search {
+    font-size:1.5rem;
+}
+
+.fa-arrow-left {
+    font-size: 3rem;
+    color: grey;
+    margin-right: 3rem;
+}
+
+.fa-arrow-right {
+    font-size: 3rem;
+}
+
+/* LOWEST SECTION - Supported by real people */
+.lowest-block-title {
+    text-align: center;
+    font-size: 5.5rem;
+    font-weight: bold;
+    line-height: 7rem;
+    padding-bottom: 3rem;
+}
+
+.lowest-block-subtitle {
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color:#94A2B3;
+}
+
+.wrapper-lowest {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 28rem;
+}
+
+.real-people-img {
+    margin-left: 10rem;
+}
+
+.lowest-purple-block {
+    background-color: #5F37EF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 26rem;
+}
+
+.lowest-purple-title {
+    color:white;
+    font-size: 3.6rem;
+    line-height: 5.2rem;
+    flex: .7;
+    flex: 0 0 87rem;
+}
+
+.fwb {
+    font-weight: bold;
+}
+
+.lowest-button {
+    border-radius: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #70C217;
+    color: white;
+    height: 7.2rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+    flex: .2;
+}
+
+.even-lower-purple {
+    background-color: #7854F7;
+}
+
+.even-lower-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 4.5rem;
+}
+
+.even-lower-text {
+    font-size: 2rem;
+    line-height: 5.2rem;
+    color: white;
+    margin-left: 1.5rem;
+}
+
+.even-lower-purple-item {
+    display: flex;
+}
+
+.bottom-logo {
+    display: block;
+    margin: auto;
+    padding: 14rem 0 7rem 0;
+    color: white;
+}
+
+.lots-of-links {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3.5rem;
+}
+
+.links-header {
+    margin-bottom: 2rem;
+    color:white;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding-bottom: 1rem;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.my-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 7rem;
+}
+
+.mr-50 {
+    margin-right: 5rem;
+}
+
+.ut {
+    text-decoration: underline;
+}
