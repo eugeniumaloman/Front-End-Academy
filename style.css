@@ -301,7 +301,7 @@ body {
 }
 
 .card-text {
-    flex: 0 0 55rem;
+    /* flex: 0 0 55rem; */
     text-align: center;
     z-index: 1;
     color: #94A2B3;
@@ -350,7 +350,9 @@ body {
 }
 
 .real-people-img {
-    margin-left: 10rem;
+    /* margin-left: 10rem; */
+    margin: auto;
+    display: block;
 }
 
 .lowest-purple-block {
@@ -365,7 +367,6 @@ body {
     color:white;
     font-size: 3.6rem;
     line-height: 5.2rem;
-    flex: .7;
     flex: 0 0 87rem;
 }
 
@@ -375,10 +376,12 @@ body {
 
 .lowest-button {
     border-radius: 6rem;
+    border-color: white;
+    border-style: solid;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #70C217;
+    background: transparent;
     color: white;
     height: 7.2rem;
     font-size: 1.8rem;
@@ -418,7 +421,7 @@ body {
 .lots-of-links {
     display: flex;
     justify-content: space-around;
-    padding-top: 3.5rem;
+    padding: 3.5rem 0 6.4rem 0;
 }
 
 .links-header {
@@ -455,4 +458,107 @@ li a {
 
 .ut {
     text-decoration: underline;
+}
+
+/* Responsive part */
+@media (max-width: 464px) {
+    .main-title {
+        font-size: 3.5rem;
+    }
+
+    .lowest-purple-title {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 556px) {
+    .card-text {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 745px) {
+    .lower-block-card  {
+        width: 50%;
+    }
+}
+
+@media (min-width: 746px) {
+    .card-text {
+        flex: 0 0 55rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .nav {
+        margin: 3rem 0 3rem 5rem;
+    }
+
+    .header-right {
+        margin: auto;
+    }
+
+    .hero-inner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-inner-footer {
+        justify-content: center;
+    }
+
+    .hero-inner-left {
+        padding-right: 0;
+    }
+
+    .simple-grid {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .middle-block-content {
+        padding-top: 2rem
+    }
+
+    .middle-block-cell {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .middle-button {
+        margin: auto;
+    }
+
+    .arrows {
+        margin-left: 33rem;
+    }
+
+    .lowest-purple-title {
+        flex: .7;
+    }
+
+    .even-lower-wrapper {
+        flex-direction: column;
+    }
+
+    .even-lower-purple-item {
+        padding-bottom: 3rem;
+    }
+
+    /* .real-people-img {
+        margin-left: 2rem;
+    } */
+
+    .lots-of-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .my-footer {
+        flex-direction: column;
+    }
 }
